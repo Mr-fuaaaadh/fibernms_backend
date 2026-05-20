@@ -26,4 +26,8 @@ urlpatterns = [
     path('api/v1/telemetry/', include('noc.telemetry.urls')),
     path('api/v1/', include('noc.integrations.urls')),
     path('api/v1/', include('noc.workflows.urls')),
+    path('api/v1/incidents/', include('operations.incidents.urls')),
+    path('api/v1/tickets/', include('operations.tickets.urls')),
+    path('api/v1/sla/', include('operations.sla.urls')),
+    path('api/v1/maintenance/', include('operations.maintenance.urls')),
 ]

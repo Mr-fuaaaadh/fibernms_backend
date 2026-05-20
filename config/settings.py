@@ -62,6 +62,14 @@ INSTALLED_APPS = [
     'noc.telemetry',
     'noc.integrations',
     'noc.workflows',
+
+    'operations.customers',
+    'operations.workforce',
+    'operations.escalations',
+    'operations.sla',
+    'operations.incidents',
+    'operations.tickets',
+    'operations.maintenance',
 ]
 
 
